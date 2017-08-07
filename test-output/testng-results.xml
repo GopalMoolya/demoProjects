@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Appium server start command is executing.]]>
+    </line>
+    <line>
+      <![CDATA[Appium server start command is executing.]]>
+    </line>
+    <line>
+      <![CDATA[Appium server start command is executing.]]>
+    </line>
+    <line>
+      <![CDATA[Appium server start command is executing.]]>
+    </line>
+  </reporter-output>
+  <suite name="SuiteOne" duration-ms="40432" started-at="2017-08-04T13:00:53Z" finished-at="2017-08-04T13:01:33Z">
+    <groups>
+    </groups>
+    <test name="TestZUKZ1" duration-ms="36458" started-at="2017-08-04T13:00:53Z" finished-at="2017-08-04T13:01:29Z">
+      <class name="org.crossbrowser.testng.playstore.PlayStoreTest">
+        <test-method status="PASS" signature="playStoreAppLaunch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.crossbrowser.testng.playstore.PlayStoreTest@57fffcd7]" name="playStoreAppLaunch" duration-ms="36419" started-at="2017-08-04T18:30:53Z" finished-at="2017-08-04T18:31:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4cce901d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.1.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Appium server start command is executing.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- playStoreAppLaunch -->
+      </class> <!-- org.crossbrowser.testng.playstore.PlayStoreTest -->
+    </test> <!-- TestZUKZ1 -->
+    <test name="TestSamsung" duration-ms="40432" started-at="2017-08-04T13:00:53Z" finished-at="2017-08-04T13:01:33Z">
+      <class name="org.crossbrowser.testng.playstore.PlayStoreTest">
+        <test-method status="PASS" signature="playStoreAppLaunch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.crossbrowser.testng.playstore.PlayStoreTest@cb644e]" name="playStoreAppLaunch" duration-ms="40396" started-at="2017-08-04T18:30:53Z" finished-at="2017-08-04T18:31:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2ec2966f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.4.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Appium server start command is executing.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- playStoreAppLaunch -->
+      </class> <!-- org.crossbrowser.testng.playstore.PlayStoreTest -->
+    </test> <!-- TestSamsung -->
+  </suite> <!-- SuiteOne -->
+  <suite name="Suite2nd" duration-ms="39877" started-at="2017-08-04T13:01:33Z" finished-at="2017-08-04T13:02:13Z">
+    <groups>
+    </groups>
+    <test name="TestZUKZ1" duration-ms="35151" started-at="2017-08-04T13:01:33Z" finished-at="2017-08-04T13:02:08Z">
+      <class name="org.crossbrowser.testng.playstore.PlayStoreTest">
+        <test-method status="PASS" signature="playStoreAppLaunch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.crossbrowser.testng.playstore.PlayStoreTest@5702b3b1]" name="playStoreAppLaunch" duration-ms="35144" started-at="2017-08-04T18:31:33Z" finished-at="2017-08-04T18:32:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4cce901d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.1.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Appium server start command is executing.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- playStoreAppLaunch -->
+      </class> <!-- org.crossbrowser.testng.playstore.PlayStoreTest -->
+    </test> <!-- TestZUKZ1 -->
+    <test name="TestSamsung" duration-ms="39877" started-at="2017-08-04T13:01:33Z" finished-at="2017-08-04T13:02:13Z">
+      <class name="org.crossbrowser.testng.playstore.PlayStoreTest">
+        <test-method status="PASS" signature="playStoreAppLaunch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.crossbrowser.testng.playstore.PlayStoreTest@6adede5]" name="playStoreAppLaunch" duration-ms="39870" started-at="2017-08-04T18:31:33Z" finished-at="2017-08-04T18:32:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2ec2966f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.4.2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Appium server start command is executing.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- playStoreAppLaunch -->
+      </class> <!-- org.crossbrowser.testng.playstore.PlayStoreTest -->
+    </test> <!-- TestSamsung -->
+  </suite> <!-- Suite2nd -->
+  <suite name="SuitesPlayStoreAppTest" duration-ms="0" started-at="2017-08-04T13:02:13Z" finished-at="2017-08-04T13:02:13Z">
+    <groups>
+    </groups>
+  </suite> <!-- SuitesPlayStoreAppTest -->
+</testng-results>

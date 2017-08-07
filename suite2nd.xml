@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite2nd" parallel="tests">
+	<test name="TestZUKZ1">
+		<parameter name="deviceId" value="4cce901d" />
+		<parameter name="port" value="4724" />
+		<parameter name="plateformV" value="5.1.1" />
+		<classes>
+			<class name="org.crossbrowser.testng.playstore.PlayStoreTest" />
+		</classes>
+	</test>
+	<test name="TestSamsung">
+		<parameter name="deviceId" value="2ec2966f" />
+		<parameter name="port" value="4723" />
+		<parameter name="plateformV" value="4.4.2" />
+		<classes>
+			<class name="org.crossbrowser.testng.playstore.PlayStoreTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="TestSamsung(failed)" parallel="tests">
+    <parameter name="port" value="4724"/>
+    <parameter name="plateformV" value="4.4.2"/>
+    <parameter name="deviceUUID" value="2ec2966f"/>
+    <classes>
+      <class name="org.crossbrowser.testng.playstore.PlayStoreTest">
+        <methods>
+          <include name="playStoreAppLaunch"/>
+          <include name="bindUp"/>
+        </methods>
+      </class> <!-- org.crossbrowser.testng.playstore.PlayStoreTest -->
+    </classes>
+  </test> <!-- TestSamsung(failed) -->
+  <test name="TestZUKZ1(failed)" parallel="tests">
+    <parameter name="port" value="4723"/>
+    <parameter name="plateformV" value="5.1.1"/>
+    <parameter name="deviceUUID" value="4cce901d"/>
+    <classes>
+      <class name="org.crossbrowser.testng.playstore.PlayStoreTest">
+        <methods>
+          <include name="playStoreAppLaunch"/>
+          <include name="bindUp"/>
+        </methods>
+      </class> <!-- org.crossbrowser.testng.playstore.PlayStoreTest -->
+    </classes>
+  </test> <!-- TestZUKZ1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
